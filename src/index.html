@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simplee Shopping Cart</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header role="banner">
+    <h1 id="site-title">Simplee Shopping Cart</h1>
+    <nav aria-label="Main navigation">
+      <!-- Navigation links -->
+    </nav>
+  </header>
+  <main id="main-content" role="main">
+    <section aria-labelledby="products-heading">
+      <h2 id="products-heading">Products</h2>
+      <div class="product-grid" role="grid">
+        <!-- Products dynamically rendered here -->
+      </div>
+    </section>
+    <aside aria-label="Shopping Cart" role="complementary">
+      <h2>Cart</h2>
+      <div id="cart" aria-live="polite">
+        <!-- Cart items dynamically rendered here -->
+      </div>
+    </aside>
+  </main>
+  <footer role="contentinfo">
+    <p>&copy; 2025 Simplee. All rights reserved.</p>
+  </footer>
+  <script src="js/models.js"></script>
+  <script src="js/error-handler.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/ui-accessibility.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
